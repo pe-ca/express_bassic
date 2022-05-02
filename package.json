@@ -1,0 +1,22 @@
+{
+  "name": "express_bassic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pe-ca/express_bassic.git"
+  },
+  "author": "RicardoPerales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pe-ca/express_bassic/issues"
+  },
+  "homepage": "https://github.com/pe-ca/express_bassic#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
