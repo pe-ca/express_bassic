@@ -11,9 +11,15 @@ app.get('/launchx', (req, res) =>{
     res.send("bienvenido a LaunchX")
 })
 
+//regresa un objeto
 app.get('/explorersInNode', (req, res) =>{
     const explorer = {name:"Explorer", msg:"hello"}
     res.send(explorer)
+})
+
+//ruta que recibira un parametro
+app.get('/explorers/:explorerName', (req, res) =>{
+    res.send(req.params)
 })
 
 //inicializador de la app
