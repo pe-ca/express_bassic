@@ -7,6 +7,10 @@ app.get('/', (req, res) =>{
     res.send("hello world!")
 })
 
+app.get('/launchx', (req, res) =>{
+    res.send("bienvenido a LaunchX")
+})
+
 //inicializador de la app
 app.listen(port, () =>{
     console.log(`Example app listening on por ${port}`)
